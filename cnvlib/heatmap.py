@@ -198,4 +198,4 @@ def do_heatmap(
     axis.invert_yaxis()
     if title:
         axis.set_title(title)
-    return axis
+    return axis, dat2plot
